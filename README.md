@@ -25,6 +25,14 @@
         </ul>
       </td>
     </tr>
+    <tr>
+      <td  align = "center" > 2 </td>
+      <ul>
+          <li> 
+            <a href = "https://github.com/AhmedBakrXI/Algorithmic-Toolbox-San-Diego-Coursera/tree/main/Week%202/1.%20fibonacci"> Fibonacci </a>
+          </li>
+        </ul>
+    </tr>
   </tbody>
 </table>
 
