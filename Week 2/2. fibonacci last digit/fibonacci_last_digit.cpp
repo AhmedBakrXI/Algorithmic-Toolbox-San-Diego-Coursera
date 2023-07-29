@@ -58,9 +58,7 @@ int main()
     
     int n;
     cin >> n;
-    int c = get_fibonacci_last_digit_naive(n);
     int d = get_fibonacci_last_digit(n);
-    cout << c << '\n';
     cout << d << '\n';
     return 0;
 }

@@ -33,3 +33,4 @@ plt.plot(n, np.log(n) ** 3, label="(log n)^3")
 plt.legend(loc='upper left')
 
 plt.show()
+243561

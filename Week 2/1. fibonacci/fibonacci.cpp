@@ -9,7 +9,9 @@ long long calc_fib(unsigned int n);
 
 int main()
 {
-    cout << calc_fib(3) << endl;
+    int n;
+    cin >> n;
+    cout << calc_fib(n) << endl;
     return 0;
 }
 
