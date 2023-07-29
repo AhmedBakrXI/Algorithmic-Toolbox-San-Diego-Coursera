@@ -32,6 +32,15 @@
             <li> 
               <a href = "https://github.com/AhmedBakrXI/Algorithmic-Toolbox-San-Diego-Coursera/tree/main/Week%202/1.%20fibonacci"> Fibonacci </a>
             </li>
+            <li> 
+              <a href = "https://github.com/AhmedBakrXI/Algorithmic-Toolbox-San-Diego-Coursera/tree/main/Week%202/2.%20fibonacci%20last%20digit"> Fibonacci Last Digit </a>
+            </li>
+            <li> 
+              <a href = "https://github.com/AhmedBakrXI/Algorithmic-Toolbox-San-Diego-Coursera/tree/main/Week%202/3.%20GCD"> GCD </a>
+            </li>
+            <li> 
+              <a href = "https://github.com/AhmedBakrXI/Algorithmic-Toolbox-San-Diego-Coursera/tree/main/Week%202/Big%20O%20Notation"> Big O Notation </a>
+            </li>
         </ul>
       </td>
     </tr>
