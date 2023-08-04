@@ -47,6 +47,25 @@
         </ul>
       </td>
     </tr>
+    <tr>
+      <td align = "center" > 3 </td>
+      <td>
+        <ul>
+          <li>
+            <a href = "https://github.com/AhmedBakrXI/Algorithmic-Toolbox-San-Diego-Coursera/tree/main/Week%203/1.%20Money%20Change"> Money Change </a>
+          </li>
+          <li>
+            <a href = "https://github.com/AhmedBakrXI/Algorithmic-Toolbox-San-Diego-Coursera/tree/main/Week%203/2.%20Max%20value%20of%20the%20loot"> Max Value of The Loot </a>
+          </li>
+          <li>
+            <a href = "https://github.com/AhmedBakrXI/Algorithmic-Toolbox-San-Diego-Coursera/tree/main/Week%203/3.%20Car%20Fuel"> Car Fuel </a>
+          </li>
+          <li>
+            <a href = "https://github.com/AhmedBakrXI/Algorithmic-Toolbox-San-Diego-Coursera/tree/main/Week%203/7.%20Maximum%20Salary"> Maximum Salary </a>
+          </li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 
