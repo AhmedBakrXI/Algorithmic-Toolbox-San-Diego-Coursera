@@ -1,17 +1,10 @@
-import java.util.Random;
-
 public class Sorting {
     public static void main(String[] args) {
-        int[] numbers = new int[10];
-
-        Random random = new Random();
-        for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = random.nextInt(100);
-        }
+        int[] numbers = {9, 3, 2, 5, 10, 3, 7};
 
         System.out.println("Before sorting: ");
-        for (int number : numbers) {
-            System.out.print(number + " ");
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.print(numbers[i] + " ");
         }
         System.out.println();
 
@@ -19,36 +12,25 @@ public class Sorting {
         /**************** Start Selection Sorting Test ******************/
 //        selection_sort(numbers);
 //        System.out.println("After sorting: ");
-//        for (int number : numbers) {
-//            System.out.print(number + " ");
+//        for (int i = 0; i < numbers.length; i++) {
+//            System.out.print(numbers[i] + " ");
 //        }
 //        System.out.println();
 
         /**************** End Selection Sorting Test ******************/
 
         /**************** Start Merge Sorting Test ******************/
-//        MergeSort(numbers);
-//        System.out.println("After sorting: ");
-//        for (int number : numbers) {
-//            System.out.print(number + " ");
-//        }
-//        System.out.println();
-
-        /**************** End Merge Sorting Test ******************/
-
-        /**************** Start Quick Sorting Test ******************/
-        QuickSort(numbers, 0, numbers.length - 1);
+        MergeSort(numbers);
         System.out.println("After sorting: ");
-        for (int number : numbers) {
-            System.out.print(number + " ");
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.print(numbers[i] + " ");
         }
         System.out.println();
-
-        /**************** End Quick Sorting Test ******************/
+        /**************** End Merge Sorting Test ******************/
     }
 
 
-    private static void selection_sort(int[] array) {
+    public static void selection_sort(int[] array) {
         for (int i = 0; i < array.length; i++) {
             int minIndex = i;
             for (int j = i + 1; j < array.length; j++) {
@@ -62,7 +44,7 @@ public class Sorting {
         }
     }
 
-    private static void MergeSort(int[] array) {
+    public static void MergeSort(int[] array) {
         if (array.length < 2)
             return;
 
@@ -84,7 +66,7 @@ public class Sorting {
         merge(array, A, B);
     }
 
-    private static void merge(int[] array, int[] leftHalf, int[] rightHalf) {
+    public static void merge(int[] array, int[] leftHalf, int[] rightHalf) {
         int i = 0, j = 0, k = 0;
 
         while (i < leftHalf.length && j < rightHalf.length) {
@@ -109,39 +91,5 @@ public class Sorting {
             j++;
             k++;
         }
-
-    }
-
-
-    private static void QuickSort(int[] array, int lowIndex, int highIndex) {
-        if (lowIndex >= highIndex)
-            return;
-
-        // Choose a pivot
-        int pivot = array[highIndex];
-
-        // Partitioning
-        int leftPointer = lowIndex;
-        int rightPointer = highIndex;
-
-        while (leftPointer < rightPointer) {
-            while (array[leftPointer] <= pivot && leftPointer < rightPointer) {
-                leftPointer++;
-            }
-            while (array[rightPointer] >= pivot && rightPointer > leftPointer) {
-                rightPointer--;
-            }
-            swap(array, leftPointer, rightPointer);
-        }
-
-        swap(array, leftPointer, highIndex);
-        QuickSort(array, lowIndex, leftPointer - 1);
-        QuickSort(array, leftPointer + 1, highIndex);
-    }
-
-    private static void swap(int[] array, int index1, int index2) {
-        int temp = array[index1];
-        array[index1] = array[index2];
-        array[index2] = temp;
     }
 }
