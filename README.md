@@ -66,6 +66,54 @@
         </ul>
       </td>
     </tr>
+    <tr>
+      <td align = "center" > 4 </td>
+      <td>
+        <ul>
+          <li>
+            <a href = "https://github.com/AhmedBakrXI/Algorithmic-Toolbox-San-Diego-Coursera/tree/main/Week%204/1.%20Binary%20Search"> Binary Search </a>
+          </li>
+          <li>
+            <a href = "https://github.com/AhmedBakrXI/Algorithmic-Toolbox-San-Diego-Coursera/tree/main/Week%204/2.%20Binary%20Search%20Duplicates"> Binary Search Duplicates </a>
+          </li>
+          <li>
+            <a href = "https://github.com/AhmedBakrXI/Algorithmic-Toolbox-San-Diego-Coursera/tree/main/Week%204/3.%20Majority%20Element"> Majority Element </a>
+          </li>
+          <li>
+            <a href = "https://github.com/AhmedBakrXI/Algorithmic-Toolbox-San-Diego-Coursera/tree/main/Week%204/Sorting%20Algorithms"> Sorting Algoritms </a>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td align = "center" > 5 </td>
+      <td>
+        <ul>
+          <li>
+            <a href = "https://github.com/AhmedBakrXI/Algorithmic-Toolbox-San-Diego-Coursera/tree/main/Week%205/1.%20Money%20Change%20Again" > Money Change Again </a>
+          </li>
+          <li>
+            <a href = "https://github.com/AhmedBakrXI/Algorithmic-Toolbox-San-Diego-Coursera/tree/main/Week%205/2.%20Primitive%20Calculator" > Primitive Calculator </a>
+          </li>
+          <li>
+            <a href = "https://github.com/AhmedBakrXI/Algorithmic-Toolbox-San-Diego-Coursera/tree/main/Week%205/3.%20Edit%20Distance" > Edit Distance </a>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td align = "center" > 6 </td>
+      <td>
+        <ul>
+          <li>
+            <a href = "https://github.com/AhmedBakrXI/Algorithmic-Toolbox-San-Diego-Coursera/tree/main/Week%206/1.%20Maximum%20Amount%20of%20Gold"> Maximum Amount of Gold </a>
+          </li>
+          <li>
+            <a href = "https://github.com/AhmedBakrXI/Algorithmic-Toolbox-San-Diego-Coursera/tree/main/Week%206/2.%20Partitioning%20Souvenirs"> Partitioning Souvenirs </a>
+          </li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 
