@@ -123,3 +123,6 @@
 
 ## 🎓 Certificate
 ![image](https://github.com/AhmedBakrXI/Algorithmic-Toolbox-San-Diego-Coursera/assets/114930002/6d0494c8-872d-44f6-87e9-ef3429ed66b4)
+
+## Note
+> I haven't completed all problems solutions yet and I solved only the enough problems to pass each week and إن شاء الله I will complete all tasks later.
