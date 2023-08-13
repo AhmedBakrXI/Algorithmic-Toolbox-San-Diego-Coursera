@@ -7,7 +7,7 @@
 
 ## 👨‍💻 Programming Languages:
 
-> I used Java, C++ and Python through out this course to make it easy for me to switch from one programming language to another while studying the course.
+> I used C++, Java and Python through out this course to make it easy for me to switch from one programming language to another while studying the course.
 
 ## 📝 Contents
 <table>
